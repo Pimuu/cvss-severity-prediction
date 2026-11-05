@@ -1,0 +1,21 @@
+model,true,pred_Low,pred_Medium,pred_High,pred_Critical
+Majority baseline,Low,0,77,0,0
+Majority baseline,Medium,0,682,0,0
+Majority baseline,High,0,621,0,0
+Majority baseline,Critical,0,220,0,0
+Complement NB,Low,2,72,3,0
+Complement NB,Medium,14,500,136,32
+Complement NB,High,4,103,384,130
+Complement NB,Critical,1,4,113,102
+Logistic Regression,Low,56,18,3,0
+Logistic Regression,Medium,74,476,106,26
+Logistic Regression,High,10,87,410,114
+Logistic Regression,Critical,0,7,44,169
+Linear SVM,Low,47,27,3,0
+Linear SVM,Medium,59,492,110,21
+Linear SVM,High,6,108,396,111
+Linear SVM,Critical,1,6,53,160
+Random Forest,Low,40,36,1,0
+Random Forest,Medium,35,504,128,15
+Random Forest,High,4,99,441,77
+Random Forest,Critical,0,8,81,131

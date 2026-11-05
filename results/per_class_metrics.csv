@@ -1,0 +1,21 @@
+model,class,precision,recall,f1,support
+Majority baseline,Low,0.0000,0.0000,0.0000,77
+Majority baseline,Medium,0.4263,1.0000,0.5977,682
+Majority baseline,High,0.0000,0.0000,0.0000,621
+Majority baseline,Critical,0.0000,0.0000,0.0000,220
+Complement NB,Low,0.0952,0.0260,0.0408,77
+Complement NB,Medium,0.7364,0.7331,0.7348,682
+Complement NB,High,0.6038,0.6184,0.6110,621
+Complement NB,Critical,0.3864,0.4636,0.4215,220
+Logistic Regression,Low,0.4000,0.7273,0.5161,77
+Logistic Regression,Medium,0.8095,0.6979,0.7496,682
+Logistic Regression,High,0.7282,0.6602,0.6926,621
+Logistic Regression,Critical,0.5469,0.7682,0.6389,220
+Linear SVM,Low,0.4159,0.6104,0.4947,77
+Linear SVM,Medium,0.7773,0.7214,0.7483,682
+Linear SVM,High,0.7046,0.6377,0.6695,621
+Linear SVM,Critical,0.5479,0.7273,0.6250,220
+Random Forest,Low,0.5063,0.5195,0.5128,77
+Random Forest,Medium,0.7790,0.7390,0.7585,682
+Random Forest,High,0.6774,0.7101,0.6934,621
+Random Forest,Critical,0.5874,0.5955,0.5914,220

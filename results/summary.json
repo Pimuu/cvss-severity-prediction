@@ -1,0 +1,34 @@
+{
+  "best_model": "Logistic Regression",
+  "best_model_test_accuracy_noise_free_subset": 0.6966513460275772,
+  "best_model_test_accuracy_noisy_labels_subset": 0.6493506493506493,
+  "best_model_test_accuracy_vague_template": 0.49390243902439024,
+  "best_model_test_accuracy_informative_templates": 0.7172701949860725,
+  "n_test": 1600,
+  "n_test_vague": 164,
+  "n_test_label_noise": 77,
+  "oracle_true_cvss_metrics": {
+    "accuracy": 0.996875,
+    "macro_precision": 0.997368409831148,
+    "macro_recall": 0.9951789483696917,
+    "macro_f1": 0.9962606036132868,
+    "weighted_f1": 0.9968734801651419,
+    "ordinal_mae": 0.003125,
+    "off_by_one_share_of_errors": 1.0,
+    "severe_error_rate": 0.0
+  },
+  "paired_bootstrap_p_best_beats": {
+    "Majority baseline": 1.0,
+    "Complement NB": 1.0,
+    "Linear SVM": 0.942,
+    "Random Forest": 0.773
+  },
+  "class_distribution": {
+    "Low": 385,
+    "Medium": 3412,
+    "High": 3103,
+    "Critical": 1100
+  },
+  "label_noise_rate_dataset": 0.04675,
+  "runtime_seconds": 186.86572217941284
+}

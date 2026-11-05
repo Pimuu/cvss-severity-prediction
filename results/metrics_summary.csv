@@ -1,0 +1,6 @@
+model,best_params,cv_macro_f1_mean,cv_macro_f1_std,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,ordinal_mae,off_by_one_share_of_errors,severe_error_rate,accuracy_ci_low,accuracy_ci_high,macro_f1_ci_low,macro_f1_ci_high,train_and_tune_seconds
+Majority baseline,"{""clf__strategy"": ""most_frequent""}",0.1495,0.0000,0.4263,0.1066,0.2500,0.1494,0.2548,0.7113,0.7603,0.1375,0.4012,0.4512,0.1432,0.1555,6.5022
+Complement NB,"{""clf__alpha"": 0.1}",0.4663,0.0165,0.6175,0.4554,0.4603,0.4520,0.6102,0.4106,0.9281,0.0275,0.5919,0.6400,0.4286,0.4753,6.0644
+Logistic Regression,"{""clf__C"": 16.0}",0.6249,0.0151,0.6944,0.6212,0.7134,0.6493,0.7010,0.3344,0.9059,0.0288,0.6719,0.7175,0.6199,0.6761,10.4068
+Linear SVM,"{""clf__C"": 1.0}",0.6100,0.0140,0.6844,0.6114,0.6742,0.6344,0.6885,0.3394,0.9267,0.0231,0.6625,0.7075,0.6044,0.6625,7.2757
+Random Forest,"{""clf__min_samples_leaf"": 2}",0.6121,0.0127,0.6975,0.6375,0.6410,0.6390,0.6984,0.3200,0.9421,0.0175,0.6750,0.7188,0.6087,0.6699,58.9175
