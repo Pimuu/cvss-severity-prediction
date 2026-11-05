@@ -1,0 +1,81 @@
+class,rank,term,coefficient,train_doc_freq
+Low,1,partial,6.5905,66
+Low,2,partial denial,6.5905,66
+Low,3,cause partial,6.5905,66
+Low,4,administrators,6.2728,166
+Low,5,local,6.0309,948
+Low,6,agent versions,5.9733,47
+Low,7,browser versions,5.5954,35
+Low,8,potentially,5.5320,93
+Low,9,obtain potentially,5.5320,93
+Low,10,potentially sensitive,5.5320,93
+Low,11,non-default,5.5067,235
+Low,12,link,5.4892,306
+Low,13,software up,5.1529,43
+Low,14,administrators to,5.1011,87
+Low,15,crafted link,5.0544,278
+Low,16,to cause,5.0130,621
+Low,17,error handler,4.8864,104
+Low,18,limited information,4.8696,192
+Low,19,limited,4.8696,192
+Low,20,to degrade,4.8456,53
+Medium,1,crash,4.1337,421
+Medium,2,to stored,3.8472,36
+Medium,3,allows privileged,3.6089,55
+Medium,4,to cause,3.5788,621
+Medium,5,administrators,3.4407,166
+Medium,6,software and,3.3630,55
+Medium,7,credentials via,3.2473,100
+Medium,8,software versions,3.2182,64
+Medium,9,authenticated,3.0536,1196
+Medium,10,cookies via,2.9432,45
+Medium,11,hypervisor through,2.9320,49
+Medium,12,dashboard of,2.9230,30
+Medium,13,local,2.8075,948
+Medium,14,allows physically,2.7655,32
+Medium,15,allows authenticated,2.6415,251
+Medium,16,browser up,2.5930,46
+Medium,17,administrators to,2.5423,87
+Medium,18,crash the,2.5179,139
+Medium,19,the service,2.5179,139
+Medium,20,to crash,2.5179,139
+High,1,obtain sensitive,4.8567,201
+High,2,authenticated attackers,3.6786,228
+High,3,execution via,3.6125,40
+High,4,html via,3.5276,62
+High,5,browser and,3.4219,55
+High,6,behavior via,3.2363,31
+High,7,cause denial,2.8066,1129
+High,8,link to,2.7511,51
+High,9,arbitrary code,2.7205,395
+High,10,container via,2.5754,36
+High,11,before the,2.4927,480
+High,12,authenticated,2.4878,1196
+High,13,code,2.4431,684
+High,14,software versions,2.3777,64
+High,15,or cause,2.3470,726
+High,16,disclose credentials,2.3427,191
+High,17,system via,2.3392,116
+High,18,disclose,2.1834,216
+High,19,to disclose,2.1834,216
+High,20,update,2.1620,139
+Critical,1,remote attackers,10.3283,1234
+Critical,2,an unauthenticated,7.0899,396
+Critical,3,unauthenticated attacker,6.7859,828
+Critical,4,unauthenticated,6.1846,1243
+Critical,5,to blind,5.2235,31
+Critical,6,remote,4.9739,2350
+Critical,7,allows remote,4.9308,1244
+Critical,8,obtain sensitive,4.7641,201
+Critical,9,or cause,4.6687,726
+Critical,10,information or,4.4435,48
+Critical,11,system,4.2895,606
+Critical,12,to out-of-bounds,4.2771,31
+Critical,13,cms versions,4.0411,46
+Critical,14,injection an,3.9037,30
+Critical,15,attackers could,3.8904,346
+Critical,16,packet to,3.8544,83
+Critical,17,to compromise,3.8323,138
+Critical,18,request,3.8310,914
+Critical,19,app through,3.6444,51
+Critical,20,attackers,3.5474,2074
